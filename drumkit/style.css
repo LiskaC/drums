@@ -1,0 +1,46 @@
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  height: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  background-image: url("/images/drums.jpg");
+  background-size: cover;
+  color: white;;
+}
+
+kbd {
+  font-size: 30px;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.key {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: aqua, 0.3;
+  box-shadow: 0px 2px 5px white;
+}
+
+/*why is hover not working for K and L? */
+.key:hover {
+  color: black;
+  background-color: #bdecee;
+  box-shadow: 0px 2px 7px white;
+}
+
+.key:active {
+  color: black;
+  border: 1px solid #FFF;
+  background-color: #bdecee;
+  box-shadow: none;
+}
